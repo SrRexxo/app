@@ -21,3 +21,13 @@ with col1:
   resp = st.checkbox("Estoy de acuerdo")
   if resp:
     st.write("Correcto!")
+
+with col2:
+  st.subheader("Esta es la segunda columna")
+  modo = st.radio("Que modalidad es la principal en tu interfaz", ("Visual", "Auditiva", "Tactil"))
+  if modo == "Visual":
+    st.write("La vista es fundamental para tu interfaz")
+  if modo == "Auditiva":
+    st.write("La audicion es fundamental para tu interfaz")
+  if modo == "Tactil":
+    st.write("El tacto es fundamental para tu interfaz")
