@@ -9,7 +9,7 @@ image = Image.open("paleopapus.jpg")
 st.image(image, caption = "paleopapus")
 
 texto = st.text_input("Escribe algo", "Este es mi texto")
-st.write("el texto escribido es", texto)
+st.write("el texto escribido (Escrito) es", texto)
 
 st.subheader("Ahora usemos 2 columnas")
 
